@@ -2,3 +2,9 @@
 *.TMP
 build*/
 *.user
+Makefile
+*.cmake
+*.a
+netlib.pc
+CMakeCache.txt
+CMakeFiles

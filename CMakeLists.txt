@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.7)
 project(netlib VERSION 1.0.1 LANGUAGES C)
 
 option(NETLIB_ENABLE_TESTS "Compile test binaries (default: ON)" ON)
-option(NETLIB_ENABLE_STATIC "Compile netlib_static library (default: OFF)" OFF)
+option(NETLIB_ENABLE_STATIC "Compile netlib_static library (default: OFF)" ON)
 option(NETLIB_ENABLE_SHARED "Compile netlib_shared library (default: ON)" ON)
 option(NETLIB_ENABLE_INSTALL "Register files for install target (default: ON)" ON)
 
